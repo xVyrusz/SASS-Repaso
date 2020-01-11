@@ -1,4 +1,4 @@
-body {
+body, .hero div div h2, .hero div div h1 {
   margin: 0;
 }
 
@@ -34,11 +34,9 @@ header div ol li a {
 }
 .hero div div h1 {
   font-size: 75px;
-  margin: 0;
 }
 .hero div div h2 {
   font-size: 40px;
-  margin: 0;
   margin-bottom: 15px;
 }
 

@@ -12,11 +12,11 @@
         div {
             h1 {
                 font-size: 75px;
-                margin: 0;
+                @extend body;
             }
             h2 {
                 font-size: 40px;
-                margin: 0;
+                @extend body;
                 margin-bottom: 15px;
             }
         }
