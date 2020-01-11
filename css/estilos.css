@@ -45,6 +45,7 @@ header div ol li a {
   justify-content: space-evenly;
   align-items: center;
   font-size: 60px;
+  background-color: gray;
 }
 
 .mundo {
@@ -55,6 +56,7 @@ header div ol li a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
+  background-color: gray;
 }
 .mundo .ciudades div img {
   width: 320px;
@@ -62,6 +64,19 @@ header div ol li a {
 }
 .mundo .ciudades div p {
   text-align: center;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+footer div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer div p {
+  color: white;
 }
 
 /*# sourceMappingURL=estilos.css.map */
