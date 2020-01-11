@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "estilos.scss"
-    ],
-    "names": [],
-    "file": "estilos.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/estilos.scss"],"names":[],"mappings":"AAEA;EACI;;;AAGJ;EACI,kBAPW;EAQX;EACA;;AAEI;EACI;EACA;EACA;;AACA;EACI;;AACA;EACI;EACA;EACA","file":"estilos.css"}
