@@ -1,0 +1,24 @@
+@mixin ciudad {
+    width: 320px;
+    height: 350px;
+}
+
+.mundo {
+    display: inline;
+    
+    .ciudades {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+
+        div {
+            img {
+                @include ciudad;
+            }
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

@@ -40,4 +40,28 @@ header div ol li a {
   margin-bottom: 15px;
 }
 
+.iconos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 60px;
+}
+
+.mundo {
+  display: inline;
+}
+.mundo .ciudades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+.mundo .ciudades div img {
+  width: 320px;
+  height: 350px;
+}
+.mundo .ciudades div p {
+  text-align: center;
+}
+
 /*# sourceMappingURL=estilos.css.map */
