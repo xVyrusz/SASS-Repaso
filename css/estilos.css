@@ -45,7 +45,7 @@ header div ol li a {
   justify-content: space-evenly;
   align-items: center;
   font-size: 60px;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .mundo {
@@ -56,7 +56,7 @@ header div ol li a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .mundo .ciudades div img {
   width: 320px;
@@ -83,6 +83,30 @@ footer div p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.boton #mostrar {
+  background: black;
+  color: white;
+  padding: 20px;
+  margin: 25px auto;
+  font-family: "OpenSansBold", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  width: 300px;
+  box-shadow: inset 0 0 0 0 white;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+.boton #mostrar:hover {
+  box-shadow: inset 0 -70px 0 0 white;
+  color: black;
 }
 
 /*# sourceMappingURL=estilos.css.map */
