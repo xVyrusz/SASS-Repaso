@@ -4,3 +4,9 @@
 @import '_iconos';
 @import '_mundo';
 @import '_footer';
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
