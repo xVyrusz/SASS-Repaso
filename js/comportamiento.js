@@ -1,9 +1,9 @@
-$(document).ready(function(){
-    $("#mostrar").click(function(){
+$(document).ready(function () {
+    $("#mostrar").click(function () {
         $(".mundo").toggle();
-        if($(".mundo").css("display")=="none"){
+        if ($(".mundo").css("display") == "none") {
             $("#mostrar").html("Mostrar Destinos");
-        }else{
+        } else {
             $("#mostrar").html("Ocultar Destinos");
         }
     });
